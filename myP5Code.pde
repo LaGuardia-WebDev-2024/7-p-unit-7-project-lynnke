@@ -11,8 +11,7 @@ draw = function(){
  
   background(255,255,255,0);
   
-
-
+ellipse (360,320,50,50);
 
 
 
@@ -20,6 +19,9 @@ draw = function(){
   if(mousePressed){showXYPositions();}
 
 }
+
+
+
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
