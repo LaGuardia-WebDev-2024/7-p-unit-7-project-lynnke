@@ -4,21 +4,28 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
-
+var mouseXX = 0;
+var catXX =0
 
 //🟢Draw Procedure - Runs on Repeat
 draw = function(){
  
   background(255,255,255,0);
-  
-ellipse (360,320,50,50);
+
+// Jerry the Mouse 
+  fill (150,70,0)
+arc (360+mouseXX,320,50,50,radians(180), radians(360));
+
+// Tom the Cat
 
 
 
   //Show x y values when mousepressed
   if(mousePressed){showXYPositions();}
 
+mouseXX-=4
 }
+
 
 
 
